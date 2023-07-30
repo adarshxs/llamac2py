@@ -1,9 +1,16 @@
 # llamac2python
+download model: 
+
+`wget https://huggingface.co/karpathy/tinyllamas/resolve/main/stories15M.bin` # Will add support for more models
 
 Compile the C code using the following command to generate the executable "run" using:
-`make run`
 
-Then:
+`cd llamac2python && make run`
+
+
+`cd .. ` # Go back to the root
+
+Then in a notebook or a python script, run:
 
 ```
 from llamac2py.wrapper import generate_short_story
