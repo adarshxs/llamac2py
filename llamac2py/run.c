@@ -6,9 +6,6 @@ $ gcc -O3 -o run run.c -lm
 
 Then run with:
 $ ./run
-
-From:
-https://github.com/karpathy/llama2.c/blob/master/run.c
 */
 
 #include <stdio.h>
@@ -18,10 +15,10 @@ https://github.com/karpathy/llama2.c/blob/master/run.c
 #include <string.h>
 #include <fcntl.h>
 #if defined _WIN32
-#include "win.h"
+    #include "win.h"
 #else
     #include <unistd.h>
-    //#include <sys/mman.h>
+    #include <sys/mman.h>
 #endif
 // ----------------------------------------------------------------------------
 // Transformer and RunState structs, and related memory management
