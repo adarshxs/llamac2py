@@ -1,6 +1,6 @@
 # llamac2python
 
-llamac2py is a Python package that provides a wrapper for running inference using the Llama-2 Transformer model. The package includes a C executable (run.c) from [Karpathy's llama2.c](https://github.com/karpathy/llama2.c) that performs the inference, and the package allows easy integration of the C code into Python scripts.
+llamac2py is a Python package that provides a wrapper for running inference using the Llama-2 Transformer model. The package includes a C executable (run.c) from [Karpathy's llama2.c](https://github.com/karpathy/llama2.c) that performs the inference, and the package allows easy inference for the same.
 ---
 download model: 
 
