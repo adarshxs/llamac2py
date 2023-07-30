@@ -10,7 +10,7 @@ download model:
 
 Compile the C code using the following command to generate the executable "run" using:
 
-`cd llamac2python && make run`
+`cd llamac2py && make run`
 
 
 `cd .. ` # Go back to the root
