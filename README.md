@@ -6,7 +6,7 @@ Compile the C code using the following command to generate the executable "run" 
 Then:
 
 ```
-from llama2_inference.wrapper import generate_short_story
+from llamac2py.wrapper import generate_short_story
 
 # Load your Llama-2 model checkpoint (model.bin) here
 checkpoint_file = 'path/to/your/model.bin'
