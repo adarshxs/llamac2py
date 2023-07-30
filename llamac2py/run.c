@@ -6,6 +6,9 @@ $ gcc -O3 -o run run.c -lm
 
 Then run with:
 $ ./run
+
+From:
+https://github.com/karpathy/llama2.c/blob/master/run.c
 */
 
 #include <stdio.h>
