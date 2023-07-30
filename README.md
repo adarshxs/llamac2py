@@ -3,6 +3,8 @@ download model:
 
 `wget https://huggingface.co/karpathy/tinyllamas/resolve/main/stories15M.bin` # Will add support for more models
 
+`git clone https://github.com/adarshxs/llamac2py`
+
 Compile the C code using the following command to generate the executable "run" using:
 
 `cd llamac2python && make run`
