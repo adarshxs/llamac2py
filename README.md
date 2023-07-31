@@ -20,7 +20,7 @@ Then in a notebook or a Python script, run:
 from llamac2py.wrapper import generate_short_story
 
 # Load your Llama-2 model checkpoint (model.bin) here
-checkpoint_file = 'path/to/your/model.bin'
+checkpoint_file = 'stories15M.bin'
 
 # Generate a short story with a prompt
 prompt_text = "Once upon a time, in a faraway land,"
