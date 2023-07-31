@@ -2,6 +2,13 @@
 
 llamac2py is a Python package that provides a wrapper for running inference using the Llama-2 Transformer model. The package includes a C executable (run.c) from [Karpathy's llama2.c](https://github.com/karpathy/llama2.c) that performs the inference, and the package allows easy inference for the same.
 ---
+![llama-cutie](https://github.com/adarshxs/llamac2py/assets/114558126/15968744-e623-4f45-81aa-a447a11860e8)
+---
+Note:
+On Windows, use build_msvc.bat in a Visual Studio Command Prompt to build with msvc, or you can use make win64 to use mingw compiler toolchain from linux or windows to build the windows target. MSVC build will automatically use openmp and max threads appropriate for your CPU unless you set OMP_NUM_THREADS env.
+
+On Centos 7, Amazon Linux 2018 use rungnu Makefile target: make rungnu or make runompgnu to use openmp.
+
 ## Get Started:
 
 Clone the Repository: `git clone https://github.com/adarshxs/llamac2py`
