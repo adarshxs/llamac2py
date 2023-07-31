@@ -3,7 +3,7 @@ from setuptools import setup, Extension
 # Define the C extension module
 c_extension = Extension(
     'your_package.c_module', # The name of the C extension module
-    sources=['llamac2py/run.c'],
+    sources=['./run.c'],
     # Add any other compilation options if needed (e.g., include_dirs, extra_compile_args)
 )
 
