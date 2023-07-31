@@ -12,7 +12,7 @@ download the Model (Will add support for more models):
 
 `wget https://huggingface.co/karpathy/tinyllamas/resolve/main/stories15M.bin`
 
-Compile the C file: `run make`
+Compile the C file: `make run`
 
 Then in a notebook or a Python script, run:
 
